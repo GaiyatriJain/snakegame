@@ -153,6 +153,7 @@ class Game:
         self.board = Board(size)
         self.snake = Snake("Joe")
         self.snake.set_board(self.board)
+        self.board.snake_positions = self.snake.segments[:]
         self.score = 0
         self.status = "ok"
 
