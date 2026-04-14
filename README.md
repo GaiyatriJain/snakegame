@@ -6,4 +6,4 @@ To run this game simply download the python file to your computer and run that f
 <img width="478" height="342" alt="image" src="https://github.com/user-attachments/assets/1daa383f-792c-4332-a997-7b012c6a572c" />
 
 
-In my current version the head of the snake is the # while 
+In my current version the head of the snake is the # while the stars are the tail and the dots are the playing grid! It's simple but I feel like the ascii style feels kinda techy which is sorta fun :)
