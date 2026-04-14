@@ -7,3 +7,6 @@ To run this game simply download the python file to your computer and run that f
 
 
 In my current version the head of the snake is the # while the stars are the tail and the dots are the playing grid! It's simple but I feel like the ascii style feels kinda techy which is sorta fun :)
+
+
+Getting the project running on web was lwk painful (but it was my own fault bc I kept making stupid errors I couldn't find 🫠) but using the link you can see try the project on a website. To get this running I had to swap out the curses functionality with js. The black bx displayed is what it would look like playing on terminal!
