@@ -44,7 +44,7 @@ class Board:
             return
 
         for i, j in self.snake_positions:
-        self.board[i][j] = 1
+            self.board[i][j] = 1
 
         head = self.snake_positions[-1]
         self.board[head[0]][head[1]] = 2
