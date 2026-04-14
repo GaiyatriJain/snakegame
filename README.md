@@ -3,3 +3,7 @@ So this started as a game of tic tac toe (which I wanted to build to make sure I
 
 To run this game simply download the python file to your computer and run that file through your terminal and it shold open right up. You can use the arrow keys to navigate and your score goes up when you eat an apple (an and). Your snake wraps when you hit a wall but if you hit yourself the game is over. And that's basically it. 
 
+<img width="478" height="342" alt="image" src="https://github.com/user-attachments/assets/1daa383f-792c-4332-a997-7b012c6a572c" />
+
+
+In my current version the head of the snake is the # while 
