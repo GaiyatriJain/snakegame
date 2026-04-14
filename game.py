@@ -36,15 +36,19 @@ class Board:
     def _wipe_snake(self):
         self.board = [[cell if cell not in (1, 2) else 0 for cell in row] for row in self.board]
 
+
     def place_snake(self):
         self._wipe_snake()
 
+        if not self.snake_positions:
+            return
+
         for i, j in self.snake_positions:
-            self.board[i][j] = 1
+        self.board[i][j] = 1
 
         head = self.snake_positions[-1]
         self.board[head[0]][head[1]] = 2
-
+    
     def get_apple(self):
         for i in range(self.size):
             for j in range(self.size):
