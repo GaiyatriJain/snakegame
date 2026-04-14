@@ -61,6 +61,7 @@ async function init() {
 }
 
 init().catch((err) => {
-  console.error(err);
-  screenEl.textContent = "Error. Open DevTools console.";
+  screenEl.textContent =
+    "Startup error:\n\n" +
+    (err?.stack || err?.message || String(err));
 });
