@@ -1,0 +1,41 @@
+<!-- the simple ui to make it web playable -->
+
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Snake</title>
+    <style>
+      body { font-family: system-ui, sans-serif; padding: 16px; }
+      #screen {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 18px;
+        line-height: 1.2;
+        white-space: pre;
+        background: #0b0f14;
+        color: #e6edf3;
+        padding: 12px;
+        border-radius: 8px;
+        display: inline-block;
+        user-select: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Snake</h1>
+    <p>Arrow keys to move. Click the page first if keys don’t work.</p>
+
+    <div>
+      <button id="start">Start</button>
+      <button id="pause">Pause</button>
+      <button id="restart">Restart</button>
+    </div>
+
+    <pre id="screen">Loading…</pre>
+
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.25.1/full/pyodide.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
